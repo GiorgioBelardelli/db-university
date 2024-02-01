@@ -11,7 +11,6 @@ GROUP BY YEAR(enrolment_date);
 
 SELECT office_address, COUNT(*)
 FROM teachers
-WHERE office_address = office_address
 GROUP BY office_address;
 
 
